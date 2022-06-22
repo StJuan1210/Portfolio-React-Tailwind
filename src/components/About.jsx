@@ -5,12 +5,13 @@ import profileImg from '../assets/DSC_0005.jpg'
 function About() {
   return (
     <div  style={{backgroundImage: "url("+ Backgif+")"}}>
-      <div className='error-container hero min-h-screen'>
-        <div class="card lg:card-side bg-base-100 shadow-xl">
-          <figure><img className='proimg' src={profileImg} alt="Album"/></figure>
-          <div class="card-body">
-            <h2 class="card-title">HI</h2>
-            <p>I am an Electronics and Communication engineer at Delhi Technological University (2023 batch)</p>
+      <div className='about-container hero'>
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <div className='item-center text-center'>
+            <p className='stat-value'>About Me</p>
+            <br></br>
+            <p class="text-xl">I am Juan George Thomas from New Delhi, India. I am currently completeing my B.Tech in Electronnics and Communication from Delhi Technological University.</p>
+            <p className='text-xl'></p>
           </div>
         </div>
       </div>

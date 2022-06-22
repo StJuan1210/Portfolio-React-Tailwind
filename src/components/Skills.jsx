@@ -4,13 +4,13 @@ import Backgif from '../assets/mainanim.gif'
 function Skills() {
   return (
     <div style={{backgroundImage: "url("+ Backgif+")"}}>
-      <div className='error-container '>
+      <div className='skills-container '>
         <div class="flex flex-col w-full lg:flex-row mt-2">
-          <div class="grid flex-grow h-32 card bg-base-300 rounded-box place-items-center">  
+          <div class="grid flex-grow h-32 rounded-box place-items-center">  
             <p className='stat-value'>Skills</p>  
           </div> 
         </div>
-      <div class="flex flex-col w-full lg:flex-row mt-10">
+      <div class="flex flex-col w-full lg:flex-row mt-2">
           <div class="grid flex-grow h-32 card bg-base-300 rounded-box place-items-center bg-opacity-10">
             <img className='skillimg' src='https://cdn-icons-png.flaticon.com/512/1126/1126012.png' alt='React'/> 
             <p>ReactJS</p>  

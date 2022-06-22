@@ -1,17 +1,18 @@
 import React from 'react'
 import './styles.css'
 import GitHubIcon from '@mui/icons-material/GitHub';
-import SimpleBarReact from 'simplebar-react';
-import 'simplebar-react/dist/simplebar.min.css'
+import SimpleBar from 'simplebar-react';
+import 'simplebar-react/dist/simplebar.min.css';
 import Backgif from '../assets/mainanim.gif'
+
 function Projects() {
   return (
-    <div>
-        <div className='items-center text-center mt-5'>
+    <div style={{backgroundImage: "url("+ Backgif+")"}}>
+        <div className='items-center text-center mt-5 bg-opacity-10'>
             <h1 className='stat-value'>Projects</h1>
         </div>
-        <div className='project-container mt-10' style={{backgroundImage: "url("+ Backgif+")"}}>
-            <SimpleBarReact>
+        <div className='project-container mt-10' >
+            <SimpleBar style={{  }}>
             <div class="card lg:card-side bg-base-100 bg-opacity-10 shadow-xl ml-5 mt-5">
                 <figure><img className='prjimg' src="https://user-images.githubusercontent.com/86282256/129944784-871a32f5-b26b-4733-afdb-b64c0f9823df.jpg?w=400&h=400" alt="Album"/></figure>
                 <div class="card-body mockup-window">
@@ -62,7 +63,7 @@ function Projects() {
                     </div>
                 </div>
             </div>
-        </SimpleBarReact>
+        </SimpleBar>
 
         </div>
     </div>
