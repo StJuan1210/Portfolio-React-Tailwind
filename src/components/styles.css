@@ -54,6 +54,14 @@ body{
   display: 'flex';
 }
 
+.resume-container {
+  min-height: calc(100vh - 130px);
+  width: 60%;
+  margin: auto;
+  justify-content:center;
+  align-items: center;
+}
+
 .contact-container {
   min-height: calc(100vh - 130px);
   width: 50%;

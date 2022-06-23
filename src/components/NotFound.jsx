@@ -1,6 +1,8 @@
 import React from 'react'
 import './styles.css'
 import Backgif from '../assets/mainanim.gif'
+import HomeIcon from '@mui/icons-material/Home';
+import { Link } from 'react-router-dom'
 
 function NotFound() {
   return (
@@ -11,7 +13,7 @@ function NotFound() {
             <h2 class="countdown font-mono text-4xl">404!</h2>
             <p className='text-xl'>Wrong URL</p>
             <div class="card-actions justify-end">
-              <button class="btn btn-primary">Home</button>
+              <Link to = "/" className='btn btn-primary'>Home &nbsp;{<HomeIcon/>}</Link>
             </div>
           </div>
       </div>

@@ -6,6 +6,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import NotFound from "./components/NotFound";
+import Resume from "./components/Resume";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 
@@ -21,6 +22,7 @@ function App() {
             <Route path="/about" element={<About />}/>
             <Route path="/skills" element={<Skills />}/>
             <Route path="/contactme" element={<Contact />}/>
+            <Route path="/resume" element={<Resume />}/>
             <Route path="*" element={<NotFound />}/>
 					</Routes>
         
