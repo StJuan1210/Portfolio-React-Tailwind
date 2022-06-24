@@ -1,6 +1,5 @@
 const skillsData = 
-{
-    line1:
+[
         [
             {
                 "image":"https://cdn-icons-png.flaticon.com/512/1126/1126012.png",
@@ -29,7 +28,6 @@ const skillsData =
             }
         ],
 
-    line2:
         [
             {
                 "image":"https://cdn-icons-png.flaticon.com/512/1387/1387537.png",
@@ -53,7 +51,7 @@ const skillsData =
             }
 
         ],
-    line3:
+        
         [
             {
                 "image":"https://cdn.icon-icons.com/icons2/2699/PNG/512/arduino_logo_icon_170518.png",
@@ -73,5 +71,5 @@ const skillsData =
 
         ]
     
-}
+]
 export default skillsData

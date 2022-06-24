@@ -2,38 +2,35 @@ body{
     display: flex;
     flex-direction: column;
 }
-
-
 .footer1{
     margin-top: auto;
 }
-
 .home-container {
-    min-height: calc(100vh - 165px);
-    display: 'flex';
-    justify-content:'center';
-    align-items:'center';
-  }
+  min-height: calc(100vh - 165px);
+  display: 'flex';
+  justify-content:'center';
+  align-items:'center';
+}
 
 .project-container {
-    max-height: calc(100vh - 230px);
-    display: 'flex';
-    justify-content:'center';
-    align-items:'center';
-    overflow: auto;
-  }
+  max-height: calc(100vh - 230px);
+  display: 'flex';
+  justify-content:'center';
+  align-items:'center';
+  overflow: auto;
+}
 .prjimg {
-    width: 600px;
-    height: 352px;
+  width: 600px;
+  height: 352px;
 }
 
 .error-container {
-    min-height: calc(100vh - 100px);
-    width: 50%;
-    height: 200px;
-    margin: auto;
-    justify-content:'center';
-    align-items:'center';
+  min-height: calc(100vh - 100px);
+  width: 50%;
+  height: 200px;
+  margin: auto;
+  justify-content:'center';
+  align-items:'center';
 }
 .skills-container {
   min-height: calc(100vh - 180px);
@@ -49,17 +46,12 @@ body{
   width: 50%;
   height: calc(100vh - 130px);
   margin: auto;
-  justify-content:center;
-  align-items: center;
   display: 'flex';
 }
 
 .resume-container {
   min-height: calc(100vh - 130px);
-  width: 60%;
-  margin: auto;
-  justify-content:center;
-  align-items: center;
+  display: inline-block;
 }
 
 .contact-container {

@@ -11,7 +11,7 @@ function About() {
           <div className='item-center text-center'>
             <p className='stat-value'>About Me</p>
             <br></br>
-            <p class="text-xl">I am Juan George Thomas from New Delhi, India. I am currently completeing my B.Tech in Electronnics and Communication from Delhi Technological University.</p>
+            <p class="text-xl">I am Juan George Thomas from New Delhi, India. I am currently completeing my B.Tech in Electronics and Communication from Delhi Technological University.</p>
             <p className='text-xl'></p>
             <br></br>
             <Link to = "/resume" className='btn btn-primary'>Resume</Link>

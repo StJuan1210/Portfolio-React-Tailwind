@@ -14,12 +14,14 @@ function Resume() {
     setWidth(window.innerWidth);
   }, [])
   return (
-    <div style={{backgroundImage: "url("+ Backgif+")"}}>
-        <div className='resume-container item-center text-center' >
-            <h1 className='stat-value mt-5 mb-5'>Resume</h1>
-            <Document file={resumepdf} className="item-center">
+    <div className='text-center' style={{backgroundImage: "url("+ Backgif+")"}}>
+        <div className='resume-container'>
+            <h1 className='stat-value mt-5 mb-5 self-center'>Resume</h1>
+            <div className='self-center'>
+            <Document file={resumepdf}>
                 <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
             </Document>
+            </div>
             <a href = {resumepdf} className="btn btn-primary mt-5">Download Resume &nbsp;{<DownloadIcon/>}</a>
         </div>
     </div>

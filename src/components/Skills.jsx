@@ -2,7 +2,7 @@ import React from 'react'
 import Backgif from '../assets/mainanim.gif'
 import SkillData from './data/SkillsData';
 
-function Skills() {
+function Skills() {  
   return (
     <div style={{backgroundImage: "url("+ Backgif+")"}}>
         <div className='skills-container '>
@@ -11,34 +11,16 @@ function Skills() {
                 <p className='stat-value'>Skills</p>  
                 </div> 
             </div>
-
+            {SkillData.map((line,id)=>(
             <div class="flex flex-col w-full lg:flex-row mt-2">
-                {SkillData.line1.map((data,id)=>(
+                {line.map((data,id)=>(
                     <div class="grid flex-grow h-32 card bg-base-300 rounded-box place-items-center bg-opacity-10">
                         <img className='skillimg' src={data.image} alt={data.alt}/> 
                         <p>{data.title}</p>  
                     </div> 
                 ))}
             </div>
-
-            <div class="flex flex-col w-full lg:flex-row mt-10">
-                {SkillData.line2.map((data,id)=>(
-                    <div class="grid flex-grow h-32 card bg-base-300 rounded-box place-items-center bg-opacity-10">
-                        <img className='skillimg' src={data.image} alt={data.alt}/> 
-                        <p>{data.title}</p>  
-                    </div> 
-                ))}
-            </div>
-    
-            <div class="flex flex-col w-full lg:flex-row mt-10">
-                {SkillData.line3.map((data,id)=>(
-                    <div class="grid flex-grow h-32 card bg-base-300 rounded-box place-items-center bg-opacity-10">
-                        <img className='skillimg' src={data.image} alt={data.alt}/> 
-                        <p>{data.title}</p>  
-                    </div> 
-                ))}
-            </div>
-            
+            ))}     
       </div>
     </div>
 )
